@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=gFifteen
+Comment=Sliding tile puzzle game
+Exec=gfifteen
+Icon=gfifteen
+Terminal=false
+Type=Application
+Categories=Game;LogicGame;GTK;

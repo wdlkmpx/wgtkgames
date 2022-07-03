@@ -1,0 +1,590 @@
+# This file is put in the public domain.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../gLightOff/glightoff.c:54
+msgid "Turn off all the lights to win!"
+msgstr ""
+
+#: ../gLightOff/glightoff.c:215
+msgid "You won!"
+msgstr ""
+
+#: ../gLightOff/glightoff.c:217
+#, c-format
+msgid "You completed level %d in %d moves."
+msgstr ""
+
+#: ../gLightOff/glightoff.c:221
+msgid "New Game"
+msgstr ""
+
+#: ../gLightOff/glightoff.c:255
+#, c-format
+msgid "Moves: %d"
+msgstr ""
+
+#. Translators: add your name, so credits appear in the "about" dialog
+#: ../gLightOff/glightoff.c:419
+msgid "translator-credits"
+msgstr ""
+
+#: ../gLightOff/glightoff.c:439
+msgid "_File"
+msgstr ""
+
+#. { "PreferencesMenu", NULL, N_("_Preferences") },
+#: ../gLightOff/glightoff.c:441 ../GtkBalls/mainmenu.c:24
+#: ../GtkTetColor/interface_menu.c:143
+msgid "_Help"
+msgstr ""
+
+#: ../gLightOff/glightoff.c:443
+msgid "_New Game"
+msgstr ""
+
+#: ../gLightOff/glightoff.c:444
+msgid "Play New Game"
+msgstr ""
+
+#: ../gLightOff/glightoff.c:447
+msgid "_Restart"
+msgstr ""
+
+#: ../gLightOff/glightoff.c:448
+msgid "Restart Current Game"
+msgstr ""
+
+#: ../gLightOff/glightoff.c:451 ../GtkBalls/mainmenu.c:30
+#: ../GtkEmeraldia/init-graphics.c:253 ../GtkTetColor/interface_menu.c:141
+msgid "_Quit"
+msgstr ""
+
+#: ../gLightOff/glightoff.c:452
+msgid "Quit"
+msgstr ""
+
+#: ../gLightOff/glightoff.c:459 ../GtkBalls/mainmenu.c:34
+#: ../GtkEmeraldia/init-graphics.c:248 ../GtkTetColor/interface_menu.c:145
+msgid "_About"
+msgstr ""
+
+#: ../gLightOff/glightoff.c:460
+msgid "About"
+msgstr ""
+
+#: ../gLightOff/glightoff.c:580
+#, c-format
+msgid ""
+"Could not find image file:\n"
+"%s\n"
+"\n"
+"Please check GLightOff is installed correctly."
+msgstr ""
+
+#. TRANSLATORS: Replace this string with your names, one name per line.
+#: ../GtkBalls/about.c:26 ../GtkEmeraldia/main.c:88
+#: ../GtkTetColor/interface.c:177
+msgid "Translated by"
+msgstr ""
+
+#: ../GtkBalls/gtkballs.c:175
+#, c-format
+msgid "Failed loading theme \"%s\"! Trying \"%s\"\n"
+msgstr ""
+
+#: ../GtkBalls/gtkballs.c:182
+#, c-format
+msgid "Failed loading theme \"%s\"! Exiting.\n"
+msgstr ""
+
+#: ../GtkBalls/halloffame.c:31 ../GtkBalls/inputname.c:59
+msgid "Unable to read score.\n"
+msgstr ""
+
+#: ../GtkBalls/halloffame.c:37 ../GtkBalls/halloffame.c:38
+msgid "Hall of Fame"
+msgstr ""
+
+#: ../GtkBalls/halloffame.c:57
+msgid "No scores"
+msgstr ""
+
+#: ../GtkBalls/halloffame.c:64 ../GtkEmeraldia/score.c:181
+msgid "Name"
+msgstr ""
+
+#: ../GtkBalls/halloffame.c:67 ../GtkBalls/savedialog.c:276
+#: ../GtkEmeraldia/score.c:186 ../GtkTetColor/game.c:274
+#: ../GtkTetColor/interface.c:110
+msgid "Score"
+msgstr ""
+
+#: ../GtkBalls/halloffame.c:70 ../GtkBalls/savedialog.c:265
+#: ../GtkEmeraldia/score.c:196
+msgid "Date"
+msgstr ""
+
+#: ../GtkBalls/inputname.c:34
+msgid "Anonymous"
+msgstr ""
+
+#: ../GtkBalls/inputname.c:41 ../GtkBalls/inputname.c:45
+msgid "Unable to determine current date.\n"
+msgstr ""
+
+#: ../GtkBalls/inputname.c:42 ../GtkBalls/inputname.c:46
+#: ../GtkBalls/inputname.c:50 ../GtkBalls/scoreboard.c:54
+#: ../GtkBalls/scoreboard.c:58 ../GtkBalls/scoreboard.c:150
+#: ../GtkBalls/scoreboard.c:165
+msgid "Unknown"
+msgstr ""
+
+#: ../GtkBalls/inputname.c:44
+msgid "%a %b %d %H:%M %Y"
+msgstr ""
+
+#: ../GtkBalls/inputname.c:63
+msgid "Unable to save score.\n"
+msgstr ""
+
+#: ../GtkBalls/inputname.c:100 ../GtkTetColor/interface.c:299
+msgid "Enter your name"
+msgstr ""
+
+#. name        stock_id          "label"         accel      tooltip  callback
+#: ../GtkBalls/mainmenu.c:21 ../GtkTetColor/interface_menu.c:136
+msgid "_Game"
+msgstr ""
+
+#: ../GtkBalls/mainmenu.c:22
+msgid "_Edit"
+msgstr ""
+
+#: ../GtkBalls/mainmenu.c:23
+msgid "_Settings"
+msgstr ""
+
+#: ../GtkBalls/mainmenu.c:25 ../GtkTetColor/interface_menu.c:137
+msgid "_New"
+msgstr ""
+
+#: ../GtkBalls/mainmenu.c:25
+msgid "Start new game"
+msgstr ""
+
+#: ../GtkBalls/mainmenu.c:26 ../GtkBalls/mainmenu.c:33
+msgid "_Rules"
+msgstr ""
+
+#: ../GtkBalls/mainmenu.c:26
+msgid "Change game rules"
+msgstr ""
+
+#: ../GtkBalls/mainmenu.c:27
+msgid "_Save"
+msgstr ""
+
+#: ../GtkBalls/mainmenu.c:27 ../GtkBalls/savedialog.c:229
+#: ../GtkBalls/savedialog.c:293
+msgid "Save game"
+msgstr ""
+
+#: ../GtkBalls/mainmenu.c:28
+msgid "_Load"
+msgstr ""
+
+#: ../GtkBalls/mainmenu.c:28 ../GtkBalls/savedialog.c:229
+#: ../GtkBalls/savedialog.c:296
+msgid "Load game"
+msgstr ""
+
+#: ../GtkBalls/mainmenu.c:29
+msgid "_Hall of fame"
+msgstr ""
+
+#: ../GtkBalls/mainmenu.c:29
+msgid "Show Hall of Fame"
+msgstr ""
+
+#: ../GtkBalls/mainmenu.c:30
+msgid "Quit program"
+msgstr ""
+
+#: ../GtkBalls/mainmenu.c:31
+msgid "_Undo"
+msgstr ""
+
+#: ../GtkBalls/mainmenu.c:31
+msgid "Undo last move"
+msgstr ""
+
+#: ../GtkBalls/mainmenu.c:32 ../GtkTetColor/interface_menu.c:140
+msgid "_Preferences"
+msgstr ""
+
+#: ../GtkBalls/mainmenu.c:32
+msgid "Change game settings"
+msgstr ""
+
+#: ../GtkBalls/mainmenu.c:33
+msgid "Display help about game rules"
+msgstr ""
+
+#: ../GtkBalls/mainmenu.c:34
+msgid "Show information about program"
+msgstr ""
+
+#: ../GtkBalls/mainwin.c:56
+#, c-format
+msgid "Hi-score: %i"
+msgstr ""
+
+#: ../GtkBalls/mainwin.c:69
+#, c-format
+msgid "Your score: %i"
+msgstr ""
+
+#: ../GtkBalls/mainwin.c:81
+msgid "Time is unlimited"
+msgstr ""
+
+#: ../GtkBalls/mainwin.c:88
+#, c-format
+msgid "Remaining time: %02d:%02d"
+msgstr ""
+
+#: ../GtkBalls/mainwin.c:160
+msgid "GtkBalls"
+msgstr ""
+
+#: ../GtkBalls/preferences.c:59
+msgid "Failed loading theme \""
+msgstr ""
+
+#: ../GtkBalls/preferences.c:134
+msgid "No themes available! =(\n"
+msgstr ""
+
+#: ../GtkBalls/preferences.c:140 ../GtkBalls/preferences.c:141
+msgid "Preferences"
+msgstr ""
+
+#: ../GtkBalls/preferences.c:143
+msgid "Show colors that will appear on next turn"
+msgstr ""
+
+#: ../GtkBalls/preferences.c:144
+msgid "Show path of the ball"
+msgstr ""
+
+#: ../GtkBalls/preferences.c:145
+msgid "Show footprints of the ball"
+msgstr ""
+
+#: ../GtkBalls/preferences.c:146
+msgid "Show animation of disappearing of the ball"
+msgstr ""
+
+#: ../GtkBalls/preferences.c:147
+msgid "Highlight \"active\" cell"
+msgstr ""
+
+#: ../GtkBalls/preferences.c:149
+msgid "Highlight red value: "
+msgstr ""
+
+#: ../GtkBalls/preferences.c:150
+msgid "Highlight green value: "
+msgstr ""
+
+#: ../GtkBalls/preferences.c:151
+msgid "Highlight blue value: "
+msgstr ""
+
+#: ../GtkBalls/preferences.c:159
+msgid "Enable time limit"
+msgstr ""
+
+#: ../GtkBalls/preferences.c:160
+msgid "Time limit (seconds): "
+msgstr ""
+
+#: ../GtkBalls/preferences.c:187
+msgid "Select Theme"
+msgstr ""
+
+#: ../GtkBalls/prefs.c:230
+#, c-format
+msgid "Can't write to %s: %s"
+msgstr ""
+
+#: ../GtkBalls/rules.c:20 ../GtkBalls/rules.c:21
+msgid "Rules"
+msgstr ""
+
+#: ../GtkBalls/rules.c:26
+msgid ""
+"The standard play area of GtkBalls is a 9x9\n"
+"grid (it can be changed through \"Rules\"\n"
+"option in ingame menu). When GtkBalls is\n"
+"first started a number of balls are placed\n"
+"in a random manner on the grid. Balls are\n"
+"in different colors (and/or shape). You may\n"
+"move balls on the grid by selecting them and\n"
+"selecting an empty square on the grid as\n"
+"destination for the ball you selected. Balls\n"
+"will only move if they are not blocked by\n"
+"other balls. Each time you move a ball,\n"
+"unless you score some points, new balls\n"
+"appear in a random manner on the grid. If\n"
+"the grid is full then the game is lost.\n"
+"However this is bound to happen, your goal\n"
+"is to make the highest score. In order to do\n"
+"this you must make lines in a vertical,\n"
+"horizontal or diagonal way with balls of the\n"
+"same color. By default a line must have at\n"
+"least five balls of the same color (it can\n"
+"also be changed through \"Rules\" option in\n"
+"ingame menu). Making a line of minimum amount\n"
+"of the balls, specifed in rules, will earn you\n"
+"twice the points for your score. If you make\n"
+"lines over minimum amount of the balls it will\n"
+"earn you even more points. In order to help you\n"
+"decide which ball you are going to move, there\n"
+"is an indicator on top of the grid that shows\n"
+"what colors the next balls that will appear on\n"
+"the grid will be."
+msgstr ""
+
+#: ../GtkBalls/rulesdialog.c:67 ../GtkBalls/rulesdialog.c:68
+msgid "Game rules"
+msgstr ""
+
+#: ../GtkBalls/rulesdialog.c:70
+msgid "Board width"
+msgstr ""
+
+#: ../GtkBalls/rulesdialog.c:71
+msgid "Board height"
+msgstr ""
+
+#: ../GtkBalls/rulesdialog.c:72
+msgid "Number of different objects"
+msgstr ""
+
+#: ../GtkBalls/rulesdialog.c:74
+msgid "Number of 'next' objects"
+msgstr ""
+
+#: ../GtkBalls/rulesdialog.c:75
+msgid "How many balls at line eliminate it"
+msgstr ""
+
+#: ../GtkBalls/rulesdialog.c:78
+msgid "Classic rules"
+msgstr ""
+
+#: ../GtkBalls/savedialog.c:30
+msgid "No game selected for load.\n"
+msgstr ""
+
+#: ../GtkBalls/savedialog.c:34
+#, c-format
+msgid ""
+"Cannot load game from:\n"
+"%s\n"
+msgstr ""
+
+#: ../GtkBalls/savedialog.c:38
+#, c-format
+msgid ""
+"Not enough balls(%d) in current theme.\n"
+"We need %d balls.\n"
+"Load another theme and try again."
+msgstr ""
+
+#: ../GtkBalls/savedialog.c:112
+#, c-format
+msgid ""
+"Cannot save game to:\n"
+"%s\n"
+"%s"
+msgstr ""
+
+#: ../GtkBalls/savedialog.c:225
+msgid "No saved games found.\n"
+msgstr ""
+
+#: ../GtkBalls/savedialog.c:252
+msgid "Empty"
+msgstr ""
+
+#: ../GtkBalls/savedialog.c:299
+msgid "Delete game"
+msgstr ""
+
+#: ../GtkEmeraldia/games.c:107 ../GtkEmeraldia/games.c:126
+msgid "Pause"
+msgstr ""
+
+#: ../GtkEmeraldia/games.c:217 ../GtkEmeraldia/games.c:256
+msgid "Start"
+msgstr ""
+
+#: ../GtkEmeraldia/games.c:237
+msgid "PAUSE!"
+msgstr ""
+
+#: ../GtkEmeraldia/games.c:261
+msgid "<<< GAME OVER >>>"
+msgstr ""
+
+#: ../GtkEmeraldia/init-graphics.c:202
+msgid "<b>NEXT</b>"
+msgstr ""
+
+#: ../GtkEmeraldia/init-graphics.c:218
+msgid "<b>SCORE</b>"
+msgstr ""
+
+#: ../GtkEmeraldia/init-graphics.c:228
+msgid "<b>LEVEL</b>"
+msgstr ""
+
+#: ../GtkEmeraldia/init-graphics.c:237
+msgid "_Start"
+msgstr ""
+
+#: ../GtkEmeraldia/init-graphics.c:242
+msgid "Scores"
+msgstr ""
+
+#: ../GtkEmeraldia/main.c:90
+msgid ""
+"Drop the blocks.  If you drop a square on top of one of the same color, they (as well as any neighboring blocks of the same color) will both be shaken by an 'impact'.  The first impact will cause fractures; the second will cause the block(s) to dissolve.\n"
+"\n"
+"You can either use the arrow keys or vi-style (hjkl) keys to move/rotate the blocks.  “s” or “p” will pause the game.\n"
+msgstr ""
+
+#: ../GtkEmeraldia/main.c:158
+#, c-format
+msgid "%s: Couldn't open high score file %s (%s)\n"
+msgstr ""
+
+#: ../GtkEmeraldia/main.c:160
+#, c-format
+msgid "%s: No High score file.  Use '-noscore' to avoid this message.\n"
+msgstr ""
+
+#: ../GtkEmeraldia/score.c:101
+msgid "No name"
+msgstr ""
+
+#: ../GtkEmeraldia/score.c:116
+msgid "write_high_scores:can't truncate scores file"
+msgstr ""
+
+#: ../GtkEmeraldia/score.c:143
+msgid "gtkemeraldia's high scores"
+msgstr ""
+
+#: ../GtkEmeraldia/score.c:191 ../GtkTetColor/interface.c:102
+msgid "Level"
+msgstr ""
+
+#: ../GtkTetColor/game.c:192 ../GtkTetColor/preferences.c:139
+msgid "Game over"
+msgstr ""
+
+#: ../GtkTetColor/game.c:289 ../GtkTetColor/preferences.c:136
+msgid "Bonus"
+msgstr ""
+
+#: ../GtkTetColor/interface.c:75
+msgid "gtktetcolor"
+msgstr ""
+
+#: ../GtkTetColor/interface.c:131
+msgid "max score"
+msgstr ""
+
+#: ../GtkTetColor/interface.c:185
+msgid "GtkTetcolor is a reimplementation of tetcolor game made for DOS by S. Sotnikov in 1991"
+msgstr ""
+
+#: ../GtkTetColor/interface.c:209
+msgid "Top scores"
+msgstr ""
+
+#: ../GtkTetColor/interface.c:219
+msgid "Hall of fame"
+msgstr ""
+
+#: ../GtkTetColor/interface.c:287
+msgid "Enter name"
+msgstr ""
+
+#: ../GtkTetColor/interface.c:323
+msgid "Gtktetcolor is paused"
+msgstr ""
+
+#: ../GtkTetColor/interface.c:345
+msgid "Help on keys"
+msgstr ""
+
+#: ../GtkTetColor/interface.c:356
+msgid ""
+"Left arrow  / Num 4 - shift block left\n"
+"Down arrow  / Num 5 - rotate block clockwise\n"
+"Right arrow / Num 6 - shift block right\n"
+"Up arrow    / Num 8 - rotate block counter-clockwise\n"
+"Space - drop block"
+msgstr ""
+
+#. /#endif
+#: ../GtkTetColor/interface.c:397
+msgid "GtkTetcolor preferences"
+msgstr ""
+
+#: ../GtkTetColor/interface.c:412
+msgid "Game options"
+msgstr ""
+
+#: ../GtkTetColor/interface.c:422
+msgid "Font for labels"
+msgstr ""
+
+#: ../GtkTetColor/interface.c:431
+msgid "Cell size: "
+msgstr ""
+
+#: ../GtkTetColor/interface.c:443
+msgid "Initial level: "
+msgstr ""
+
+#: ../GtkTetColor/interface.c:454
+msgid "Delay before cell destroying, ms: "
+msgstr ""
+
+#: ../GtkTetColor/interface.c:469
+msgid "Use sound"
+msgstr ""
+
+#: ../GtkTetColor/interface_menu.c:138
+msgid "_Pause"
+msgstr ""
+
+#: ../GtkTetColor/interface_menu.c:139
+msgid "_Scores"
+msgstr ""
+
+#: ../GtkTetColor/interface_menu.c:144
+msgid "on keys"
+msgstr ""

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=GLightOff
+Comment=Simple Light Off game
+Exec=glightoff
+Terminal=false
+Type=Application
+Icon=glightoff.png
+Categories=Game;PuzzleGame;
+StartupNotify=true

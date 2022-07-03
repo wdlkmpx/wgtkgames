@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Type=Application
+Name=GtkEmeraldia
+Exec=gtkemeraldia
+Icon=gtkemeraldia
+Terminal=false
+Categories=Game;BlocksGame;

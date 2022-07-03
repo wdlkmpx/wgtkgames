@@ -1,0 +1,96 @@
+#!/bin/sh
+
+# Project name and version
+PACKAGE="wgtkgames"
+VERSION="2022.07"
+PACKAGE_URL='https://github.com/wdlkmpx/wgtkgames'
+
+# Flags that will be used in all makefiles that compile code...
+PROJECT_CFLAGS='-Wall -g -O2' # -Wextra -Wno-unused-parameter -Wno-missing-field-initializers
+PROJECT_CXXFLAGS="${PROJECT_CFLAGS}"
+PROJECT_CPPFLAGS=''
+PROJECT_LDFLAGS=''
+PROJECT_LXXFLAGS=''
+PROJECT_LIBS=''
+
+# Project type, use C to avoid checking for C++ compiler and stuff
+# supported values: C, C++ ("" = C++)
+PROJECT_TYPE=C
+
+# Files.in, to replace @VERSION@ and a few other variables
+#  see w_conf/00_standard_infile.sh for a complete list
+#w_infiles='lib/libmp3.pc'
+
+# config.h: custom extra lines
+w_config_h_extra_lines=""
+
+# config.mk: custom extra lines
+w_config_mk_extra_lines=""
+
+#w_new_option <OPT>
+#  Manually create the following funcs:
+#   opt_print_<OPT>()     { }
+#   opt_configure_<OPT>() { }
+#   opt_check_<OPT>()     { }
+
+
+# configure the project using the commands provided
+# by `configure` and other scripts and commands/tools
+w_main_func()
+{
+	# GCC=yes if gcc has been detected
+
+	# if the Makefiles are only compatible with GNU make, use w_require_gnu_make
+	#w_prefer_gnu_make
+
+	# check required headers and exit on error
+	w_check_headers_required stdio.h
+
+	# detect the presence of headers
+	# config.h: define HAVE_ZCONF_H if zconf.h is present, etc
+	#w_check_headers sys/types.h zconf.h
+}
+
+# once everything is done, you can fix things, etc
+w_finish_func()
+{
+    GTK2_APPS='gLightOff'
+    case ${GTK_CFLAGS} in
+        *"gtk-2.0"*)
+            echo "GTK2_APPS = ${GTK2_APPS}" >> config.mk
+            ;;
+        *)
+            echo "* Disabling GTK2 apps (${GTK2_APPS})"
+            ;;
+    esac
+}
+
+#=====================================================================
+# special scripts for optional features and various tasks
+# checks are run after w_main_func
+#
+# - source w_conf/xxx script to support a specific feature
+# - these scripts are meant to be generic, so any project can add them
+# - most of these scripts can handle --enable/--disable cmd options
+#   to make it easier to replace autoconf
+#
+# In most cases, if a feature is enabled, it will be defined in config.h
+#   #define HAVE_ZLIB 1
+# And config.mk
+#   ZLIB_CFLAGS =
+#   ZLIB_LIBS   =
+
+GETTEXT_PACKAGE="$PACKAGE"
+. w_conf/gettext
+
+#W_GTK_IS_OPTIONAL=yes
+##--
+W_GTK_DEFAULT_VERSION=2
+#W_GTK2_MIN_VERSION='2.14'
+#W_GTK3_MIN_VERSION='3.14'
+#W_GTK4_MIN_VERSION=''
+##-- support only 1 version
+#W_GTK_ONLY_VERSION=2
+#W_GTK_MIN_VERSION=2.24
+. w_conf/gtk
+

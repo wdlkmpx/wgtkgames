@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=GtkTetcolor (tetris color)
+Exec=gtktetcolor
+Icon=gtktetcolor
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Game;BlocksGame;

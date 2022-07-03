@@ -1,0 +1,15 @@
+config.log
+config.h
+config.mk
+config.sh
+*.o
+*.a
+*.so*
+*.mo
+
+gfifteen
+glightoff
+gtkballs
+gtkemeraldia
+gtktetcolor
+gtktetris
